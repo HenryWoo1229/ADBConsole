@@ -9,5 +9,5 @@ The app is created to ease the Android development and testing. The logcat in Ec
 ====================================
 Forked from [FredericGuo/ADBConsole](https://github.com/FredericGuo/ADBConsole)
 
-edit a little 
+modified a little
 ![screenshot](https://github.com/fwindpeak/ADBConsole/blob/master/Screenshot.png)
