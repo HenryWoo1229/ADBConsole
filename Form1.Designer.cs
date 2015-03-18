@@ -28,6 +28,7 @@ namespace ADBConsole
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.ADBStartBtn = new System.Windows.Forms.Button();
             this.ADBClearBtn = new System.Windows.Forms.Button();
@@ -180,7 +181,7 @@ namespace ADBConsole
             this.consoleBox.MaxLength = 7483647;
             this.consoleBox.Name = "consoleBox";
             this.consoleBox.ShortcutsEnabled = false;
-            this.consoleBox.Size = new System.Drawing.Size(1008, 372);
+            this.consoleBox.Size = new System.Drawing.Size(1008, 375);
             this.consoleBox.TabIndex = 0;
             this.consoleBox.Text = "";
             this.consoleBox.WordWrap = false;
@@ -209,7 +210,7 @@ namespace ADBConsole
             this.splitContainer1.Panel2.Controls.Add(this.ADBStartBtn);
             this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel2_Paint);
             this.splitContainer1.Size = new System.Drawing.Size(1008, 442);
-            this.splitContainer1.SplitterDistance = 372;
+            this.splitContainer1.SplitterDistance = 375;
             this.splitContainer1.SplitterWidth = 1;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -246,6 +247,7 @@ namespace ADBConsole
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 442);
             this.Controls.Add(this.splitContainer1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(1024, 160);
             this.Name = "Form1";
             this.Text = "adb logcat";
